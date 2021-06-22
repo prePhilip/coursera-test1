@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #FFFF8A;
+  font-family: 'Times New Roman';
+  height : 1000px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080 ;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  position: relative;
+  height: 150 px;
+
+   padding: 5px;
+  
+}
+
+ #header-nav h1 { 
+
+  position: relative;
+  
+  
+  font-family: "Times New Roman";
+  color: #000000  ;
+  font-size: 3vw;
+ 
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  border: 1px;
+  line-height: 1.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #0000ff ;
+}
+.row{
+	height: 600 px;
+	width: 90%;
+	background-color: #2FFF8A;
+	border: 1px; 
+	padding: 5px;
+	margin: 20px;
+	}
+	
+#menu{
+	font-family: "Times New Roman";
+    color: #000000  ;
+    font-size: 2em;
+	
+	margin-top: 125px;
+    margin-bottom: 0;
+    margin-left: 0;
+
+}
+h2{
+	font-family: "Times New Roman";
+    color: #000000  ;
+    font-size: 0.8em;
+}	
+section{
+
+	overflow: hidden;
+	word-break: break-all;
+	font-size: 0.5em;
+}
+       
+
+#nav-list {
+	background-color: #FFFFFF;
+	border: 1px solid black;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+	
+ul > li {
+		border: 1px solid black;
+
+}
